@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Generic.Processing.Pipeline.FilterChain&lt;T&gt;">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FilterChain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Generic.Processing.Pipeline.PipelineConfigurationSection">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PipelineConfigurationSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Generic.Processing.Pipeline.PipelineHandlerTypeCollection">
+    <Position X="2.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEICAAAAAAAAIAAACAAAhAAAAAABAAAACAAAAABAAAA=</HashCode>
+      <FileName>PipelineConfigurationSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Generic.Processing.Pipeline.PipelineHandlerConfigurationElement">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>PipelineConfigurationSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Generic.Processing.Pipeline.PipelineFactory">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Generic.Processing.Pipeline.PipelineFactory.ObjectFactory" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PipelineFactory.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PipelineFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Generic.Processing.Pipeline.PipelineManager&lt;T&gt;">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAIAACAAAAAAAAAgAAAAAAAAEAAA=</HashCode>
+      <FileName>PipelineManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Generic.Processing.Pipeline.ICoreProcessor&lt;T&gt;">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ICoreProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Generic.Processing.Pipeline.IFilter&lt;T&gt;">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IFilter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
