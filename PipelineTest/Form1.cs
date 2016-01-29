@@ -1,9 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
 using GPPipeline;
 
@@ -20,7 +15,7 @@ namespace PipelineTest
         {
             PipelineManager<string> pp = PipelineFactory.CreateFromConfiguration<string>("filterPipeline");
             string data = "test data";
-            bool success = pp.ProcessFilter(ref data);
+            var success = pp.ProcessFilter(ref data);
             MessageBox.Show(success.ToString());
             MessageBox.Show(data);
         }
